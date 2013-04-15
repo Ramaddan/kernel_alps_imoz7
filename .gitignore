@@ -1,0 +1,10 @@
+kernel/.tmp_versions
+kernel/.config
+kernel/.config.old
+mediatek/custom/out
+*.tmp
+*.o
+*.mod
+*.ko
+*.cmd
+*~
