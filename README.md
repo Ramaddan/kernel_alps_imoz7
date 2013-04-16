@@ -7,6 +7,7 @@ mymake
 
 kernel
 ======
+
 	export PATH=~/Your_Toolchain_PATH/ 
 	for_example  /alps/prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin:$PATH
 	cd <kernel path>
