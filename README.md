@@ -3,7 +3,6 @@ To Fix :
 
 s8073.mk
 
-mymake
 
 kernel
 ======
