@@ -1,0 +1,4 @@
+kernelpath=$1
+echo "find $kernelpath -name \"*.module\""
+result=`find $kernelpath -name "*.module"`
+for folder in $result; do mkdir -p $(dirname $2/${folder:${#kernelpath}}); cp $folder $2/${folder:${#kernelpath}} ; done
