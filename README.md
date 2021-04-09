@@ -1,7 +1,7 @@
 To Fix :
 ========
 
-s8073.mk
+imoz7.mk
 
 
 kernel
@@ -11,4 +11,4 @@ kernel
 	for_example  /alps/prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin:$PATH
 	cd <kernel path>
 	cp mediatek-configs .config
-	TARGET_PRODUCT=s8073 MTK_ROOT_CUSTOM=../mediatek/custom make
+	TARGET_PRODUCT=imoz7 MTK_ROOT_CUSTOM=../mediatek/custom make
