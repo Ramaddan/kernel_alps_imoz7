@@ -21,9 +21,9 @@ namespace NSCamCustom
 MINT32 custom_SetExif(void **ppCustomExifTag)
 {
 #ifdef EN_CUSTOM_EXIF_INFO
-#define CUSTOM_EXIF_STRING_MAKE  "WIKO"
+#define CUSTOM_EXIF_STRING_MAKE  "ALPS"
 #define CUSTOM_EXIF_STRING_MODEL "SmartPhone"
-#define CUSTOM_EXIF_STRING_SOFTWARE "WIKO Camera Application"
+#define CUSTOM_EXIF_STRING_SOFTWARE "ALPS Camera Application"
 static customExifInfo_t exifTag = {CUSTOM_EXIF_STRING_MAKE,CUSTOM_EXIF_STRING_MODEL,CUSTOM_EXIF_STRING_SOFTWARE};
     if (0 != ppCustomExifTag) {
         *ppCustomExifTag = (void*)&exifTag;
