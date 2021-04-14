@@ -85,4 +85,4 @@ sys.ipo.pwrdncap=2
 ro.sys.usb.storage.type=mtp,mass_storage
 net.tinno.bt.name=ALPS-IMO Z7
 wifi.net.ssid_default=ALPS-IMO Z7
-ro.tinno.build.version=S8073B_PP_F4_B1B8_2.09_V12
+ro.tinno.build.version=IMOZ7B_PP_F4_B1B8_2.09_V12

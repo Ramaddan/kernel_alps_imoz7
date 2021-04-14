@@ -1,5 +1,5 @@
 /*
- * This was automagically generated from /home/pdroid/CM9/kernel/alps/s8073/kernel/arch/arm/tools/mach-types!
+ * This was automagically generated from /home/pdroid/CM9/kernel/alps/imoz7/kernel/arch/arm/tools/mach-types!
  * Do NOT edit
  */
 

@@ -1,7 +1,7 @@
 lowlevel_init.o: lowlevel_init.S \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -12,7 +12,7 @@ mt6577.o: mt6577.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -58,7 +58,7 @@ mt6577_board.o: mt6577_board.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -100,15 +100,15 @@ mt6577_board.o: mt6577_board.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mtk_uart.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mtk_serial.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mtk_wdt.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/boot_mode.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/io.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/memory.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_leds.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/custom/inc/cust_leds.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_meta.h
@@ -116,7 +116,7 @@ mt65xx_leds.o: mt65xx_leds.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -157,7 +157,7 @@ mt65xx_leds.o: mt65xx_leds.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_pwm.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_gpio.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_gpio_usage.h \
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_gpio_usage.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_leds.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/custom/inc/cust_leds.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/io.h \
@@ -167,7 +167,7 @@ boot_mode.o: boot_mode.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -213,7 +213,7 @@ load_image.o: load_image.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -256,8 +256,8 @@ load_image.o: load_image.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/errno.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm-generic/errno.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/bootimg.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_image.h
 addr_trans.o: addr_trans.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/addr_trans.h \
@@ -265,7 +265,7 @@ addr_trans.o: addr_trans.c \
 mmc_core.o: mmc_core.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -280,12 +280,12 @@ mmc_core.o: mmc_core.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mmc_test.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/addr_trans.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mmc_hal.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/part.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/ide.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
- ../../../../mediatek/custom/s8073/common/pmt.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
+ ../../../../mediatek/custom/imoz7/common/pmt.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
  ../kernel/drivers/mmc-host/emmc_device_list.h
 mmc_test.o: mmc_test.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/msdc.h \
@@ -305,7 +305,7 @@ msdc_utils.o: msdc_utils.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/msdc_utils.h
 msdc.o: msdc.c \
- ../../../../mediatek/custom/out/s8073/uboot/inc/cust_msdc.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/cust_msdc.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/msdc.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/msdc_cfg.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/msdc_types.h \
@@ -320,7 +320,7 @@ mtk_serial.o: mtk_serial.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -369,7 +369,7 @@ mtk_timer.o: mtk_timer.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -413,7 +413,7 @@ mt6577_nand.o: mt6577_nand.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -454,13 +454,13 @@ mt6577_nand.o: mt6577_nand.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/errno.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm-generic/errno.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/cust_nand.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/cust_nand.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/io.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/memory.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_nand.h \
- ../../../../mediatek/custom/s8073/common/nand_device_list.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
+ ../../../../mediatek/custom/imoz7/common/nand_device_list.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/bmt.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/linux/mtd/nand.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/linux/mtd/compat.h \
@@ -470,12 +470,12 @@ mt6577_nand.o: mt6577_nand.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/linux/mtd/bbm.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_nand.h \
- ../../../../mediatek/custom/s8073/common/nand_customer.h
+ ../../../../mediatek/custom/imoz7/common/nand_customer.h
 mt6577_meta.o: mt6577_meta.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -525,7 +525,7 @@ mtk_key.o: mtk_key.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -564,7 +564,7 @@ mtk_key.o: mtk_key.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/net.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/u-boot/crc.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/cust_key.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/cust_key.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mtk_key.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/boot_mode.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_pmic6329.h
@@ -572,7 +572,7 @@ mt6577_rtc.o: mt6577_rtc.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -617,7 +617,7 @@ mt6577_recovery.o: mt6577_recovery.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -663,16 +663,16 @@ mt6577_recovery.o: mt6577_recovery.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/boot_mode.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_recovery.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_rtc.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_kpd.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_kpd.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/linux/input.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_eint.h
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_eint.h
 mt6577_factory.o: mt6577_factory.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -721,7 +721,7 @@ mtk_auxadc.o: mtk_auxadc.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -767,7 +767,7 @@ mtk_wdt.o: mtk_wdt.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -814,7 +814,7 @@ mt6577_gpio.o: mt6577_gpio.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -854,20 +854,20 @@ mt6577_gpio.o: mt6577_gpio.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/u-boot/crc.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_gpio.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_gpio_usage.h \
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_gpio_usage.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/io.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/memory.h
 mt6577_gpio_init.o: mt6577_gpio_init.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_gpio.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_gpio_usage.h \
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_gpio_usage.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/mach-types.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/linux/bitops.h \
@@ -902,14 +902,14 @@ mt6577_gpio_init.o: mt6577_gpio_init.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/u-boot-arm.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/net.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/u-boot/crc.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_gpio_boot.h \
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_gpio_boot.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/io.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/memory.h
 mt6577_pwm.o: mt6577_pwm.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -955,7 +955,7 @@ mt6577_i2c.o: mt6577_i2c.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -998,7 +998,7 @@ mt6577_i2c.o: mt6577_i2c.c \
 mt65xx_disp_drv.o: mt65xx_disp_drv.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1042,7 +1042,7 @@ mt65xx_disp_drv.o: mt65xx_disp_drv.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/lcd.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/video_fb.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_gpio.h \
- /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/s8073/kernel/dct/cust_gpio_usage.h \
+ /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/../../../mediatek/custom/out/imoz7/kernel/dct/cust_gpio_usage.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_typedefs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/mmc.h \
@@ -1059,7 +1059,7 @@ mt65xx_disp_drv.o: mt65xx_disp_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1072,7 +1072,7 @@ disp_drv.o: disp_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1130,7 +1130,7 @@ disp_drv.o: disp_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1143,7 +1143,7 @@ disp_assert_layer.o: disp_assert_layer.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1201,7 +1201,7 @@ disp_assert_layer.o: disp_assert_layer.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1214,7 +1214,7 @@ disp_drv_dbi.o: disp_drv_dbi.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1272,7 +1272,7 @@ disp_drv_dbi.o: disp_drv_dbi.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1285,7 +1285,7 @@ lcd_drv.o: lcd_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1343,7 +1343,7 @@ lcd_drv.o: lcd_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1356,7 +1356,7 @@ disp_drv_dsi.o: disp_drv_dsi.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1414,7 +1414,7 @@ disp_drv_dsi.o: disp_drv_dsi.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1427,7 +1427,7 @@ dsi_drv.o: dsi_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1485,7 +1485,7 @@ dsi_drv.o: dsi_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1498,7 +1498,7 @@ disp_drv_dpi.o: disp_drv_dpi.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1556,7 +1556,7 @@ disp_drv_dpi.o: disp_drv_dpi.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1569,7 +1569,7 @@ dpi_drv.o: dpi_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_platform.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1627,7 +1627,7 @@ dpi_drv.o: dpi_drv.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dpi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/dsi_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_reg.h \
@@ -1639,7 +1639,7 @@ dpi_drv.o: dpi_drv.c \
 mt65xx_logo.o: mt65xx_logo.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1686,17 +1686,17 @@ mt65xx_logo.o: mt65xx_logo.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_disp_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/lcd_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_logo.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/cust_display.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/cust_display.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/u-boot/zlib.h
 mt6577_pll.o: mt6577_pll.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1740,7 +1740,7 @@ bmt.o: bmt.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/linux/mtd/nand.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1762,7 +1762,7 @@ partition_mt.o: partition_mt.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1806,11 +1806,11 @@ partition_mt.o: partition_mt.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/io.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/memory.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_nand.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/cust_nand.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
- ../../../../mediatek/custom/s8073/common/pmt.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/cust_nand.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
+ ../../../../mediatek/custom/imoz7/common/pmt.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h
 mt6577_sleep.o: mt6577_sleep.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_rtc.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
@@ -1821,7 +1821,7 @@ mt6577_sleep.o: mt6577_sleep.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/linux/bitops.h \
@@ -1870,7 +1870,7 @@ mt65xx_partition.o: mt65xx_partition.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1913,15 +1913,15 @@ mt65xx_partition.o: mt65xx_partition.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/_exports.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/errno.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm-generic/errno.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/mt65xx_partition.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h \
- ../../../../mediatek/custom/s8073/common/pmt.h \
- ../../../../mediatek/custom/s8073/common/partition_define.h
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/mt65xx_partition.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h \
+ ../../../../mediatek/custom/imoz7/common/pmt.h \
+ ../../../../mediatek/custom/imoz7/common/partition_define.h
 mt6577_bat.o: mt6577_bat.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
@@ -1969,18 +1969,18 @@ mt6577_bat.o: mt6577_bat.c \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_disp_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/disp_drv_log.h \
- ../../../../mediatek/custom/out/s8073/kernel/lcm/inc/lcm_drv.h \
+ ../../../../mediatek/custom/out/imoz7/kernel/lcm/inc/lcm_drv.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx_logo.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt6577_sleep.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/boot_mode.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mtk_wdt.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mtk_key.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/cust_battery.h
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/cust_battery.h
 mt6577_pmic6329.o: mt6577_pmic6329.c \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/common.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/config_defaults.h \
- ../../../../mediatek/custom/out/s8073/uboot/inc/configs/ubconfigs.h \
+ ../../../../mediatek/custom/out/imoz7/uboot/inc/configs/ubconfigs.h \
  ../../../../mediatek/platform/mt6577/uboot/inc/asm/arch/mt65xx.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/asm/sizes.h \
  /home/xiuyongtang/OrderTinno/A_GPL/A_GPL/bootable/bootloader/uboot/include/./config.h \
